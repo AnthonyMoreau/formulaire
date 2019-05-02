@@ -10,26 +10,28 @@
 </head>
 
 <body>
+
     <div class="container">
+
         <section id="section1">
             <fieldset>
                 <form action="#" method="POST">
                     <label for="full_name">Full Name</label><span>&#42;</span>
                     <p>
-                        <input type="text" name="full_name" placeholder="First">
-                        <input type="text" name="full_name" placeholder="Last">
+                        <input type="text" id="full_name" placeholder="First">
+                        <input type="text" id="full_name_last" placeholder="Last">
                     </p>
                     <label for="email">Email</label><span>&#42;</span>
                     <p>
-                        <input type="email" name="email">
+                        <input type="email" id="email">
                     </p>
-                    <label for="subject">Subject</label>
+                    <label for="Subject">Subject</label>
                     <p>
-                        <select name="subject" id="subject">
+                        <select name="Subject" id="Subject">
                             <option value="Advertise">Advertise</option>
                         </select>
                     </p>
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
                     <p>
                         <button type="submit">Submit</button>
                     </p>
@@ -43,15 +45,15 @@
                 <form action="#" method="POST">
                     <p>
                         <label for="name">Name</label><span>&#42;</span>
-                        <input type="text" name="name">
+                        <input type="text" id="name">
                     </p>
                     <p>
                         <label for="email">Email</label><span>&#42;</span>
-                        <input type="email" name="email">
+                        <input type="email" id="email">
                     </p>
                     <p>
                         <label for="tel">Telephone</label>
-                        <input class="tel" type="text" name="tel" maxlength="2">-
+                        <input class="tel" type="text" id="tel" maxlength="2">-
                         <input class="tel" type="text" name="tel" maxlength="2">-
                         <input class="tel" type="text" name="tel" maxlength="2">-
                         <input class="tel" type="text" name="tel" maxlength="2">-
@@ -76,21 +78,23 @@
 
         <section id="section3">
             <fieldset>
-                <fieldset id="fieldset1">
-                    <legend>Personnal</legend>
 
-                    <form action="#" method="POST">
+                <form action="#" method="POST">
+
+                    <fieldset id="fieldset1">
+                        <legend>Personnal</legend>
+
                         <p>
                             <label for="name">Name</label><span>&#42;</span>
-                            <input type="text" name="name">
+                            <input type="text" id="name">
                         </p>
                         <p>
                             <label for="email">Email</label><span>&#42;</span>
-                            <input type="email" name="email">
+                            <input type="email" id="email">
                         </p>
                         <p>
                             <label for="phone">Phone</label><span>&#42;</span>
-                            <input type="phone" name="phone">
+                            <input type="text" id="phone">
                         </p>
                         <p>
                             <label for="subject">Subject</label><span>&#42;</span>
@@ -98,41 +102,46 @@
                                 <option value="appointment">Appointment</option>
                             </select>
                         </p>
-                </fieldset>
-                <fieldset id="fieldset2">
-                    <legend>Message</legend>
-                    <label for="message">Message</label><span>&#42;</span>
-                    <p>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    </p>
-                    <button type="submit">Submit</button>
-                </fieldset>
+                    </fieldset>
+
+                    <fieldset id="fieldset2">
+                        <legend>Message</legend>
+                        <label for="Message">Message</label><span>&#42;</span>
+                        <p>
+                            <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+                        </p>
+                        <button type="submit">Submit</button>
+                    </fieldset>
+
                 </form>
+
             </fieldset>
         </section>
+
         <section id="section4">
             <fieldset>
                 <form action="#" method="POST">
                     <p>
                         <label for="name">Enter your name</label>
-                        <input type="text" name="name">
+                        <input type="text" id="name">
                     </p>
                     <p>
                         <label for="address">Enter your address</label>
-                        <input type="text" name="address">
+                        <input type="text" id="address">
                     </p>
                     <p>
                         <label for="subject">Enter your subject</label>
-                        <input type="text" name="subject">
+                        <input type="text" id="subject">
                     </p>
                     <p>
                         <label for="message">Enter your message</label>
-                        <input type="text" name="message">
+                        <input type="text" id="message">
                     </p>
                     <button type="submit">Send a letter</button>
                 </form>
             </fieldset>
         </section>
+
         <section id="section5">
             <fieldset>
                 <form action="#" method="POST">
@@ -144,7 +153,7 @@
                         <input type="email" name="email" placeholder="Your email &#42;">
                     </p>
                     <p>
-                        <textarea name="about" id="" cols="30" rows="10">About Yourself &#42;</textarea>
+                        <textarea name="about" id="about" cols="30" rows="10">About Yourself &#42;</textarea>
                     </p>
                     <p>Interest :</p>
                     <select name="interest" id="interest">
@@ -153,12 +162,14 @@
                     </select>
                     <h3>2 Additionnal infos</h3>
                     <p>
-                        <textarea name="about" id="" cols="30" rows="10">About Your school &#42;</textarea>
+                        <textarea name="about_school" id="about_school" cols="30"
+                            rows="10">About Your school &#42;</textarea>
                     </p>
                     <button type="submit">Apply</button>
                 </form>
             </fieldset>
         </section>
+
         <section id="section6">
             <fieldset>
                 <form action="#" method="POST">
@@ -172,12 +183,13 @@
                         <input type="text" name="address" placeholder="Your address">
                     </p>
                     <p>
-                        <textarea name="message" id="" cols="30" rows="10">type your message</textarea>
+                        <textarea name="message" id="message" cols="30" rows="10">type your message</textarea>
                     </p>
                     <button type="submit">Send</button>
                 </form>
             </fieldset>
         </section>
+
         <section id="section7">
             <fieldset>
                 <form action="#" method="POST">
@@ -202,6 +214,7 @@
                 </form>
             </fieldset>
         </section>
+
         <section id="section8">
             <fieldset>
                 <form action="#" method="POST">
@@ -224,6 +237,7 @@
                 </form>
             </fieldset>
         </section>
+
         <section id="section9">
             <fieldset>
                 <form action="#" method="POST">
@@ -238,13 +252,14 @@
                     <p>
                         <input class="subject" type="text" name="subject" placeholder="Subject">
                     </p>
-                    <textarea name="message" id="" cols="30" rows="10">Message</textarea>
+                    <textarea name="message" id="message" cols="30" rows="10">Message</textarea>
                     <p>
                         <button type="submit">Send Message</button>
                     </p>
                 </form>
             </fieldset>
         </section>
+
         <section id="section10">
             <div class="head">
                 <h2>Sign Up Now!</h2>
@@ -257,7 +272,7 @@
                         <fieldset class="section">
                             <label for="name">Your Full name</label>
                             <p>
-                                <input type="text" name="name">
+                                <input type="text" id="name">
                             </p>
                             <label for="address">Address</label>
                             <p>
@@ -270,11 +285,11 @@
                         <fieldset class="section">
                             <label for="email">Email address</label>
                             <p>
-                                <input type="email" name="email">
+                                <input type="email" id="email">
                             </p>
                             <label for="phone">Phone number</label>
                             <p>
-                                <input type="text" name="phone" maxlength="10">
+                                <input type="text" id="phone" maxlength="10">
                             </p>
                         </fieldset>
                     </div>
@@ -283,11 +298,11 @@
                         <fieldset class="section">
                             <label for="password">Password</label>
                             <p>
-                                <input type="password" name="password" required>
+                                <input type="password" id="password" required>
                             </p>
                             <label for="password_confirmed">Confirm password</label>
                             <p>
-                                <input type="password" name="password_confirmed" required>
+                                <input type="password" id="password_confirmed" required>
                             </p>
                         </fieldset>
                     </div>
@@ -300,7 +315,9 @@
                 </form>
             </fieldset>
         </section>
+
     </div>
+
 </body>
 
 </html>
