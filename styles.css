@@ -32,7 +32,7 @@ span {
     padding: 16px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #f1f1f1;
+    background-color:rgb(221, 221, 221);
 
 }
 
@@ -82,10 +82,20 @@ span {
     width: 10px;
 }
 
+#section2 select {
+
+    width: 50%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color:rgb(221, 221, 221);
+
+}
+
 #section2 button {
 
     border-radius: 8px;
-    background-color: #4CAF50;
+    background-color:rgb(255, 133, 0);
     border: none;
     color: white;
     padding: 16px 32px;
@@ -99,39 +109,52 @@ span {
 
 #section3 {
 
-    color: rgb(218, 21, 37);
+    color: rgb(242, 130, 179);
 
 }
 
 #section3 #fieldset1 {
 
     margin: 10px;
-    background-color: rgb(224, 154, 177, 0.2);
+    background-color: rgb(255, 244, 244);
     border-color: rgb(211, 124, 153);
 
 }
 
 #section3 #fieldset2 {
 
-    background-color: rgb(224, 154, 177, 0.2);
+    background-color: rgb(255, 244, 244);
     border-color: rgb(211, 124, 153);
 }
 
 #section3 legend {
 
+    color: rgb(255, 211, 227);
     border-top: 2px solid;
     border-left: 2px solid;
     border-right: 2px solid;
-    border-color: rgb(211, 124, 153); 
+    border-color: rgb(211, 124, 153);
+    border-radius: 2px; 
     padding: 3px;
-    background-color: rgb(224, 154, 177, 0.5);
+    background-color:rgb(255, 244, 244);
+
+}
+
+#section3 select {
+
+    background-color: rgb(255, 211, 227);
+    width: 50%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+        
 
 }
 
 #section3 button {
 
     border-radius: 8px;
-    background-color: rgb(218, 21, 37);
+    background-color: rgb(235, 59, 136);
     border: none;
     color: white;
     padding: 16px 32px;
@@ -181,5 +204,180 @@ span {
     text-decoration: none;
     margin: auto;
     cursor: pointer;
+
+}
+
+#section5 {
+
+    background-color: rgb(244, 247, 248);  
+
+}
+
+#section5 h3 {
+
+    font-size: 30px;
+
+}
+
+#section5 input[type=text], #section5 input[type=email], #section5 textarea, #section5 select {
+
+    background-color: rgb(232, 238, 239);
+    border-radius: 4px;
+    display: block;
+    width: 80%;
+    margin: auto;
+
+}
+
+#section5 button {
+
+    font-size: 30px;
+    background-color: rgb(26, 188, 156);
+    border: none;
+    color: white;
+    width: 100%;
+    height: 80px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+#section6 {
+
+    background-color: rgb(244, 247, 248);
+
+}
+
+#section6 input[type=text], #section6 textarea {
+
+    width: 95%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.contact {
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(26, 188, 156); 
+
+}
+
+#section6 button {
+
+    font-size: 15px;
+    background-color: rgb(26, 188, 156);
+    border: none;
+    color: white;
+    width: 100%;
+    height: 80px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+#section7 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+#section7 h2 {
+
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+#section7 fieldset {
+
+    border-radius: 3px;
+    padding: 0;
+
+
+}
+
+#section7 input {
+
+    text-align: center;
+    border-radius: 3px;
+    padding: 0;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(243, 243, 243);
+    border: none;
+}
+
+#section7 button {
+
+    margin-top: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(36, 113, 255);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#section8 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#section8 h2 {
+
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#section8 form, #section8 fieldset {
+
+    margin: 0;
+
+}
+
+#section8 .account {
+
+    color: rgb(173, 172, 172);
+    text-align: left;
+    padding: 30px 0 30px 5px;
+    background-color: rgb(77, 77, 77);
+
+}
+
+#section8 input {
+
+    color: rgb(173, 172, 172);
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(173, 172, 172);
+    
+}
+
+#section8 button {
+
+
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(44, 187, 187);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
 
 }
