@@ -224,7 +224,7 @@
                 </form>
             </fieldset>
         </section>
-        <section9>
+        <section id="section9">
             <fieldset>
                 <form action="#" method="POST">
                     <p>
@@ -236,7 +236,7 @@
                         <input type="text" name="website" placeholder="Website">
                     </p>
                     <p>
-                        <input type="text" name="subject" placeholder="Subject">
+                        <input class="subject" type="text" name="subject" placeholder="Subject">
                     </p>
                     <textarea name="message" id="" cols="30" rows="10">Message</textarea>
                     <p>
@@ -244,26 +244,30 @@
                     </p>
                 </form>
             </fieldset>
-        </section9>
-        <section10>
+        </section>
+        <section id="section10">
+            <div class="head">
+                <h2>Sign Up Now!</h2>
+                <p>Sinvg up and tell us what you think of the site!</p>
+            </div>
             <fieldset>
                 <form action="#" method="POST">
                     <div class="name">
-                        <fieldset>
-                            <h3>1 First Name & Address</h3>
+                        <h3>1 First Name & Address</h3>
+                        <fieldset class="section">
                             <label for="name">Your Full name</label>
                             <p>
                                 <input type="text" name="name">
                             </p>
                             <label for="address">Address</label>
                             <p>
-                                <input type="text" name="address">
+                                <textarea name="address" id="address" cols="28" rows="1.5"></textarea>
                             </p>
                         </fieldset>
                     </div>
                     <div class="Email">
-                        <fieldset>
-                            <h3> 2 Email & Phone</h3>
+                        <h3> 2 Email & Phone</h3>
+                        <fieldset class="section">
                             <label for="email">Email address</label>
                             <p>
                                 <input type="email" name="email">
@@ -275,8 +279,8 @@
                         </fieldset>
                     </div>
                     <div class="password">
-                        <fieldset>
-                            <h3>3 Password</h3>
+                        <h3>3 Password</h3>
+                        <fieldset class="section">
                             <label for="password">Password</label>
                             <p>
                                 <input type="password" name="password" required>
@@ -290,12 +294,12 @@
                     <p class="button">
                         <button type="submit">Valider</button>
                     </p>
-                    <p>
+                    <p class="checkbox">
                         <input type="checkbox" name="checkbox">You agree to our Terms and Policy.
                     </p>
                 </form>
             </fieldset>
-        </section10>
+        </section>
     </div>
 </body>
 
