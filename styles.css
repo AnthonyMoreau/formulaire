@@ -209,7 +209,15 @@ span {
 
 #section5 {
 
-    background-color: rgb(244, 247, 248);  
+    background-color: rgb(244, 247, 248);
+
+}
+
+#section5 i {
+
+    font-size: 40px;
+    color: #4B99AD;
+    
 
 }
 
